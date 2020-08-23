@@ -1,16 +1,24 @@
-# win-principle-2020
+# windowsPrinciples
 
 #### 介绍
-教学仓库
+slides and resource for the course "principle of windows and its applications"
 
 #### 软件架构
 软件架构说明
 
 
-#### 安装教程
+#### gitee 安装
 
-1.  xxxx
+1.  gitee 的 VS extension 下载地址
+
+https://marketplace.visualstudio.com/items?itemName=GiteeInc.GiteeExtension
+
+
 2.  xxxx
+
+
+
+
 3.  xxxx
 
 #### 使用说明

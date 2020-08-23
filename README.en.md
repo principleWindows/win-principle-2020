@@ -1,7 +1,7 @@
-# win-principle-2020
+# windowsPrinciples
 
 #### Description
-教学仓库
+slides and resource for the course "principle of windows and its applications"
 
 #### Software Architecture
 Software architecture description
