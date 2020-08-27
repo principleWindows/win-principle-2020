@@ -42,9 +42,9 @@ slides and resource for the course "principle of windows and its applications"
 训练及练习资源。建议大家以 github 作为主要的源码管理工具方便获取
 更丰富的程序员社区资源，而将gitee 作为源码仓库备份以备不时之需。
 尽量同时采用 github 与 gitee 来
-管理个人的源码及编码资源。同步操作 github 与 gitee 的方法参见：
+管理个人的源码及编码资源。同步本地仓库到 github 与 gitee 的方法参见：
 
-[同步操作 gitee 与 github](git/gitee_n_github.md)
+[同步推送本地仓库到 gitee 与 github](git/gitee_n_github.md)
 
 ### 2.1  github
 
