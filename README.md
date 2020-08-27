@@ -24,25 +24,31 @@ get started quickly — from exploration to deep training.
 Instructor: Professor Jicheng Hu<br>
 主讲教师: 胡继承 教授
 
-#### 介绍
+## 0 Introduction
 slides and resource for the course "principle of windows and its applications"
 
 
-## 1 gitee and github
+## 1 Visual Studio 2019 Community
+
+
+## 2 github and gitee
 
 使用 git 工具来管理项目, 通常会使用 SSH 来连接代码仓库。win10 下如何
 安装 SSH client 参见:
 
 [win10 安装SSH](git/ssh_client.md)
 
-本课程采用 gitee 及 github 作为项目管理工具并管理课程相关教学、
-训练及练习资源。建议大家以 gitee 作为主要的源码管理工具，而将
-github 作为主要的社区资源来源。尽量同时采用 gitee 与 github 来
-管理个人的源码及编码资源。同步操作 gitee 与 github 的方法参见：
+本课程采用 github 及 gitee 作为项目管理工具并管理课程相关教学、
+训练及练习资源。建议大家以 github 作为主要的源码管理工具方便获取
+更丰富的程序员社区资源，而将gitee 作为源码仓库备份以备不时之需。
+尽量同时采用 github 与 gitee 来
+管理个人的源码及编码资源。同步操作 github 与 gitee 的方法参见：
 
 [同步操作 gitee 与 github](git/gitee_n_github.md)
 
-### 1.1  gitee
+### 2.1  github
+
+### 2.2  gitee
 
 gitee 的 VS extension 下载地址:
 
@@ -53,10 +59,8 @@ https://marketplace.visualstudio.com/items?itemName=GiteeInc.GiteeExtension
 [参见 ssh-key](git/ssh_gitee.md)
 
 
-### 1.2  github
 
-
-### 1.3  使用说明
+### 2.3  使用说明
 
 1.  xxxx
 2.  xxxx
