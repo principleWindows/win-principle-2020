@@ -25,8 +25,9 @@ ssh-keygen -t rsa -C "someone@whu.edu.cn"
 执行的结果是在 ~/.ssh/ 文件夹下生成了 id_rsa 与 id_rsa.pub 两个文件。
 其中 id_rsa 是私钥，而 id_rsa.pub 是公钥。如果你在生成密钥的过程中输入了文件名，
 则可能在当前文件夹下生成与你所输入文件名相应的私钥和公钥，这时为了让 ssh 能顺利
-和 gitee 建立通信，你需要将私钥拷贝到 ~/.ssh/ 文件夹下并改名为 id_rsa。不然
-后面会出错。_
+和 gitee 建立通信，你需要将私钥拷贝到 ~/.ssh/ 文件夹下并改名为 id_rsa。
+不然后面会出错。
+
 使用 cat 命令来查看一下生成的 rsa 公钥，结果如下：
 
 ![cat_id_rsa.pub](images/cat_someone.pub.PNG)
@@ -55,6 +56,7 @@ ssh -T git@gitee.com
 如果出现如下显示结果则表明 ssh 密钥添加成功
 
 ![ssh_rsa_success](images/ssh_rsa_success.PNG)
+(provihell... What the hell?)
 
 ### 2,3 添加密钥出错的解决方法
 
@@ -70,6 +72,10 @@ git@gitee.com: Permission denied (publickey).
 如果在 git push 时出现用户名或密码错误，这个时候可能不是密钥的问题。
 可以在 win10 的凭据管理器中对 windows 凭据中的 git:https://gitee.com 进行修改，
 将用户名和密码都正确填写。
+
+gitee 的密钥设置方法几乎是像素级模仿 github，有关 github 的 rsa 密钥设置方法参见：
+[github 配置ssh公钥](https://www.jianshu.com/p/33ce73e3cbfe) <br>
+那个 does not provihell access (见 2.2 最后面部分) 应该是 does not provide shell access， 模仿出了点瑕疵。
 
 
 
