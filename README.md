@@ -27,6 +27,19 @@ Instructor: Professor Jicheng Hu<br>
 ## 0 Introduction
 slides and resource for the course "principle of windows and its applications"
 
+### course slides:
+
+#### [1 Windows操作系统概述](slides/coursePPT/01Introduction2WindowsOS.pptx)
+
+#### [2 程序进程与进程间通信](slides/coursePPT/02process.pptx)
+
+#### [3 线程间通信与同步](slides/coursePPT/03thread.pptx)
+
+### instruction slides:
+
+#### [0 Course Introduction](slides/instruction/introduction.pptx)
+
+#### [1 Introduction to Windows Dev](slides/instruction/principleWindows_1.pptx)
 
 ## 1 Visual Studio 2019 Community
 
