@@ -31,12 +31,16 @@ slides and resource for the course "principle of windows and its applications"
 ## 1 Visual Studio 2019 Community
 
 
-## 2 github and gitee
+## 2 git, github and gitee
 
-本课程采用 github 及 gitee 作为项目管理工具并管理课程相关教学、
-训练及练习资源。建议大家以 github 作为主要的源码管理工具方便获取
-更丰富的程序员社区资源，而将gitee 作为源码仓库备份以备不时之需。
-尽量同时采用 github 与 gitee 来管理个人的源码及编码资源。
+本课程采用 git 作为项目管理工具并管理课程相关教学、训练及练习资源。
+建议大家以 github 作为主要的远程仓库方便获取丰富的程序员社区资源，
+而将 gitee 作为备份远程仓库来备份源码以备不时之需。尽量同时采用 github 
+与 gitee 来保存个人的源码及编码资源。
+
+[git 下载地址 https://git-scm.com/downloads](https://git-scm.com/downloads)
+
+从上述官网下载 git 的最新版本进行缺省安装即可。
 
 ### 2.1 SSH Connection
 
