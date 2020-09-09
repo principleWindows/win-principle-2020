@@ -76,19 +76,20 @@ slides and resource for the course "principle of windows and its applications"
 
 #### 2.2.1  github
 
+github extension 的安装参见教学幻灯片。
+
 #### 2.2.2  gitee
 
+事实上 github extension 已经可以涵盖 gitee extension 的作用。
 gitee 的 VS extension 下载地址:
 
 https://marketplace.visualstudio.com/items?itemName=GiteeInc.GiteeExtension
 
 
 
-### 2.3  使用说明
+## 3  WSL
 
-1.  xxxx
-2.  xxxx
-3.  xxxx
+[安装 WSL](WSL/WSL.md)
 
 ## 参与贡献
 
