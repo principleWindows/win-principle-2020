@@ -1,5 +1,9 @@
 # Windows Principles and Its Applications
 
+[English Version](README.en.md)
+
+**Please leve your comment, suggestion, question in the comment feedback or send me emails!**
+
 武汉大学计算机学院课程:
 * 20201021076 《Windows原理与应用》
 * 20201021952 《Windows原理与应用》
@@ -27,7 +31,7 @@ Instructor: Professor Jicheng Hu<br>
 ## 0 Introduction
 slides and resource for the course "principle of windows and its applications"
 
-### course slides:
+### 0.1 course slides:
 
 #### [1 Windows操作系统概述](slides/coursePPT/01Introduction2WindowsOS.pptx)
 
@@ -35,13 +39,19 @@ slides and resource for the course "principle of windows and its applications"
 
 #### [3 线程间通信与同步](slides/coursePPT/03thread.pptx)
 
-### instruction slides:
+### 0.2 instruction slides:
 
 #### [0 Course Introduction](slides/instruction/introduction.pptx)
 
 #### [1 Introduction to Windows Dev](slides/instruction/principleWindows_1.pptx)
 
+#### [2 Program and Process](slides/instruction/principleWindows_2.pptx)
+
 ## 1 Visual Studio 2019 Community
+
+### 1.1 Installation of VS 2019 Community
+
+### [1.2 Choice of Front-end Frameworks](appendix/front-end.md)
 
 
 ## 2 git, github and gitee
