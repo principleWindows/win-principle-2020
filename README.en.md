@@ -92,6 +92,8 @@ gitee µÄ VS extension ÏÂÔØµØÖ·:
 https://marketplace.visualstudio.com/items?itemName=GiteeInc.GiteeExtension
 
 
+### [2.3 frequently used git commands](git/frequentlyUsed.md)
+
 
 ## 3  WSL
 

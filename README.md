@@ -95,6 +95,7 @@ gitee 的 VS extension 下载地址:
 
 https://marketplace.visualstudio.com/items?itemName=GiteeInc.GiteeExtension
 
+### [2.3 frequently used git commands](git/frequentlyUsed.md)
 
 
 ## 3  WSL
