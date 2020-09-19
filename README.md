@@ -120,6 +120,18 @@ https://www.cnblogs.com/zhaotianff/p/10637397.html
 https://www.cnblogs.com/gatsby123/p/9750187.html
 
 
+## Academic Integrity
+
+Grading in this course is intended to be fair and objectively measure your 
+performance as much as possible. 
+Wuhan University regards acts of academic dishonesty (e.g., plagiarism, 
+cheating on examinations, obtaining unfair advantage, and falsification of 
+laboratory notebook records) as serious offenses against the values of 
+intellectual honesty. 
+
+Penalty for Academic Dishonesty:
+* grade penalty: final grade is of 0 grade-point
+
 ## How to contribute
 
 1.  Create a personal fork
