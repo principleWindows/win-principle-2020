@@ -120,6 +120,11 @@ https://www.cnblogs.com/zhaotianff/p/10637397.html
 *  readelf<br>
 https://www.cnblogs.com/gatsby123/p/9750187.html
 
+## 5 refs
+
+<https://github.com/microsoft>
+
+[C++/winRT refs](appendix/cppWinRT.md)
 
 ## Academic Integrity
 
