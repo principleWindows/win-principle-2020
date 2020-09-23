@@ -44,6 +44,8 @@ slides and resource for the course "principle of windows and its applications"
 
 #### [2 Program and Process](slides/instruction/principleWindows_2.pptx)
 
+#### [3 Threads and Synchronization](slides/instruction/principleWindows_3.pptx)
+
 ## 1 Visual Studio 2019 Community
 
 ### 1.1 Installation of VS 2019 Community
@@ -100,6 +102,8 @@ https://marketplace.visualstudio.com/items?itemName=GiteeInc.GiteeExtension
 [Installation of WSL](WSL/WSL.md)
 
 ## 4 Course Lab
+
+[Goto details](labs/labs.md)
 
 ### 4.1 git
 
