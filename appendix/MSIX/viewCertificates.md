@@ -16,35 +16,35 @@ The MMC (Microsoft Management Console) appears.
 
 
 2. From the File menu, select Add/Remove Snap In (添加/删除 管理单元).
-<br>
+
 The Add or Remove Snap-ins window appears.
-<br>
+
 ![add/remove snap-in](pix/snap-in.PNG)
 
 
 
 3. From the Available snap-ins list, choose Certificates, then select Add.
-<br>
+
 ![add snap-in](pix/addSnap-in.PNG)
 
 
 
 4. In the Certificates snap-in window, select Computer account, and then 
 select Next.
-<br>
+
 ![选择计算机帐户](pix/computerAccount.PNG)
-<br>
+
 Optionally, you can select My user account for the current user or Service 
 account for a particular service.
 
 5. In the Select Computer window, leave Local computer selected, and then select Finish.
-<br>
+
 ![选择计算机](pix/localComputer.PNG)
 
 6. In the Add or Remove Snap-in window, select OK.
-<br>
+
 ![证书](pix/certificates.PNG)
-<br>
+
 Optional: From the File menu, select Save or Save As to save the MMC console file for later use.
 
 7. To view your certificates in the MMC snap-in, select Console Root in the 

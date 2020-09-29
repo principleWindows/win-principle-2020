@@ -59,8 +59,8 @@ edits for your app.
 1. In Solution Explorer, open the solution for your UWP app project.
 2. Right-click the project and choose Publish->Create App Packages. If 
 this option is disabled or does not appear at all, check that the project 
-is a Universal Windows project.<br>
-![The Create App Packages wizard appears.](pix/createAppPack.PNG)<br>
+is a Universal Windows project. 
+![The Create App Packages wizard appears.](pix/createAppPack.PNG) 
 <center>The Create App Packages wizard appears.</center>
 
 makecert
