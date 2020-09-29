@@ -8,9 +8,9 @@ The following procedure demonstrates how to examine the stores on your
 local device to find an appropriate certificate:
 
 1. Shortcuts win + R, and then enter mmc.
-<br>
+
 The MMC (Microsoft Management Console) appears.
-<br>
+
 ![MMC window](pix/mmc.PNG)
 
 
