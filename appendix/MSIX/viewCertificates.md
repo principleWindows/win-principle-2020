@@ -2,6 +2,8 @@
 
 [How to: View certificates with the MMC snap-in](https://docs.microsoft.com/en-us/dotnet/framework/wcf/feature-details/how-to-view-certificates-with-the-mmc-snap-in)
 
+[How to: Create Temporary Certificates for Use During Development](https://docs.microsoft.com/en-us/dotnet/framework/wcf/feature-details/how-to-create-temporary-certificates-for-use-during-development)
+
 ***
 
 The following procedure demonstrates how to examine the stores on your 
@@ -55,5 +57,32 @@ certificate directory, you can view, export, import, and delete its
 certificates.
 
 我们需要生成证书, 并将其添加到“受信任的根证书颁发机构”供应用程序的安装调试使用。
+
+打开 powershell
+```shell
+makecert -r -pe -n "cn=whu" -$ commercial -a sha1 -b 10/01/2020 -e 10/01/2050 -cy authority -ss my -sr currentuser
+```
+
+# View certificates with the Certificate Manager tool
+
+You can also view, export, import, and delete certificates by using the Certificate Manager tool.
+
+## To view certificates for the local device
+1. Select Run from the Start menu, and then enter **certlm.msc**.
+
+The Certificate Manager tool for the local device appears.
+
+2. To view your certificates, under Certificates - Local Computer in the 
+left pane, expand the directory for the type of certificate you want to 
+view.
+
+## To view certificates for the current user
+1. Select Run from the Start menu, and then enter **certmgr.msc**.
+
+The Certificate Manager tool for the current user appears.
+
+2. To view your certificates, under Certificates - Current User in the 
+left pane, expand the directory for the type of certificate you want to 
+view.
 
 

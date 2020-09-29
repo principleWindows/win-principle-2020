@@ -1,14 +1,13 @@
-# COURSE LAB
+# 课程实验
 
-阅读[中文版](labs_cn.md)
+Read [English Version](labs.md)
 
 ***
+本课程含3次实验课，每次实验课4个学时。
 
-There are three laboratories in this course, with 4 class hours in each lab.
+## 实验准备 (课前需做) 
 
-## LAB PREREQUISITES (Pre-Class Requirements) 
-
-Due Before Class Begins ( **课前必做** ):
+**课前必做** :
 1. 安装 Visual Studio Community 2019 Preview, 参见
 [Get started with WinUI 3 for desktop apps](winUI3/winUI3.md)
 
@@ -16,19 +15,19 @@ Due Before Class Begins ( **课前必做** ):
 **为实现winUI3的新功能请大家尽量自带笔记本电脑并升级win10** )
 
 
-## Lab One
+## 实验一
 
-Targets of this class:
+本次课教学目标：
 1. Introduction to the C#/C++ framework example codes: wpfTest2020
 2. How to create C++/winRT applications
 3. Cache line and multithreads performance
 
 
 
-## Lab Two
+## 实验二
 
 
-## Lab Three
+## 实验三
 
 
 
