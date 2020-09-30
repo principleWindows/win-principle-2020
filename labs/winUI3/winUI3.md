@@ -76,7 +76,7 @@ and the MainWindow.xaml and various MainWindow code files define a MainWindow cl
 that represents the main window displayed by your app. These classes derive from 
 types in the Microsoft.UI.Xaml namespace provided by WinUI.
 
-![App Project]()
+![App Project](pix/app.PNG)
 
 * Project name (Package): This is a Windows Application Packaging Project that is 
 configured to build the app into an MSIX package. This provides a modern deployment 
@@ -84,14 +84,14 @@ experience, the ability to integrate with Windows 10 features via package extens
 and much more. This project contains the package manifest for your app, and it is the 
 startup project for your solution by default.
 
-![Package Project]()
+![Package Project](pix/packManifest.PNG)
 
 7. To add a new item to your app project, right-click the Project name (Desktop) project 
 node in Solution Explorer and select Add -> New Item. In the Add New Item dialog box, 
 select the WinUI tab, choose the item you want to add, and then click Add. For more 
 details about the available items, see [this section](https://docs.microsoft.com/en-us/windows/apps/winui/winui3/#item-templates-for-winui-3).
 
-![New Item]()
+![New Item](pix/newItem.PNG)
 
 8. Build and run your solution to confirm that the app runs without errors.
 
