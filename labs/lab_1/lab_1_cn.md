@@ -11,13 +11,13 @@ Read [English Version](lab_1.md)
 
 
 
-## 1 框架代码 wpfTest2020
+## 1 [框架代码 wpfTest2020 介绍](lab_1_1.md)
 
+## 2 [How to create a blank app](lab_1_2.md)
 
-## 2 [C++/winRT 与 winUI3 演示代码](lab_1_2.md)
+## 3 [C++/winRT 与 winUI3 演示代码](lab_1_3.md)
 
-
-## 3 Cache line 与多线程性能调查
+## 4 Cache line 与多线程性能调查
 
 
 
