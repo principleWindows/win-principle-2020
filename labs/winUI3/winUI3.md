@@ -31,7 +31,25 @@ To build C++ apps you must also include the following workloads:
 
 记住安装时要选择英语语言包, 并将 Visual Studio 2019 Preview 的环境配置为英语。
 
-**这里大家可以添加内容及图片完善一下语言包的安装及配置并 pull request**
+![optional component](pix/installen.png)
+
+安装完成重启电脑后启动 Visual Studio 2019 Preview 。选择 **继续但无需代码** 进入VS 主界面。
+
+![optional component](pix/startPreview.png)
+
+选择 **工具** -> **选项** 进入选项界面。
+
+![optional component](pix/setlanguage1.png)
+
+选择 **环境** -> **区域设置** -> **语言** -> **Engligh** 确定并重启 VS。
+
+注意：需要在 **Visual Studio Installer** 中安装了英文语言包这里才会有 **English** 选项。如果之前没有安装可以进入 **Visual Studio Installer** 对 **Visual Studio 2019 Preview** 进行修改。
+
+![optional component](pix/setlanguage2.png)
+
+现在显示的就是英文界面啦！
+
+![optional component](pix/englishUI.png)
 
 
 ### 1.2 Install .NET 5 Release Candidate
