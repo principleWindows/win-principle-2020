@@ -15,7 +15,7 @@ Read [English Version](labs.md)
 **为实现winUI3的新功能请大家尽量自带笔记本电脑并升级win10** )
 
 
-## 1 实验一
+## 1 [实验一](lab_1/lab_1.md)
 
 本次课教学目标：
 1. Introduction to the C#/C++ framework example codes: wpfTest2020
@@ -24,10 +24,10 @@ Read [English Version](labs.md)
 
 
 
-## 2 实验二
+## 2 [实验二](lab_2/lab_2.md)
 
 
-## 3 实验三
+## 3 [实验三](lab_3/lab_3.md)
 
 
 

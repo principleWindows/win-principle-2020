@@ -16,7 +16,7 @@ Due Before Class Begins ( **课前必做** ):
 **为实现winUI3的新功能请大家尽量自带笔记本电脑并升级win10** )
 
 
-## Lab One
+## 1 [Lab One](lab_1/lab_1.md)
 
 Targets of this class:
 1. Introduction to the C#/C++ framework example codes: wpfTest2020
@@ -25,10 +25,10 @@ Targets of this class:
 
 
 
-## Lab Two
+## 2 [Lab Two](lab_2/lab_2.md)
 
 
-## Lab Three
+## 3 [Lab Three](lab_3/lab_3.md)
 
 
 
