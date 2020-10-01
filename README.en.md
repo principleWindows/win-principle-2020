@@ -1,36 +1,153 @@
-# win-principle-2020
+# Windows Principles and Its Applications
 
-#### Description
-鏁欏浠撳簱
+[中文版](README.md)
 
-#### Software Architecture
-Software architecture description
+**Please leve your comment, suggestion, question in the comment feedback or send me emails!**
 
-#### Installation
+This is the teaching resource repository for the courses of CS, Wuhan University:
+* Course No.20201021076 "Windows principle and its applications"
+* Course No.20201021952 "Windows principle and its applications"
 
-1.  xxxx
-2.  xxxx
-3.  xxxx
+“Windows Principle and Its Applications” is a course of teaching
+general purpose windows 
+programming knowledge to develop software system running on Windows 
+platform, via different programming languages that supports 
+various computer programming models such as object-oriented 
+programming and generic programming. Its main purpose is to make 
+writing good programs easier and more pleasant for the Windows 
+platform programmer.
 
-#### Instructions
+By learning this course, you will be training with up-to-date 
+technology, including uwp, fluent design, c++/winRt, c#/winRt etc, 
+to create stunning modern windows applications, using a suite of 
+collaborative tools. These learning opportunities can help you 
+get started quickly — from exploration to deep training.
 
-1.  xxxx
-2.  xxxx
-3.  xxxx
+Instructor: Professor Jicheng Hu
 
-#### Contribution
+## 0 Introduction
+slides and resource for the course "principle of windows and its applications"
 
-1.  Fork the repository
-2.  Create Feat_xxx branch
-3.  Commit your code
-4.  Create Pull Request
+### 0.1 course slides:
+
+#### [1 Introduction to Windows OS](slides/coursePPT/01Introduction2WindowsOS.pptx)
+
+#### [2 Program and Process](slides/coursePPT/02process.pptx)
+
+#### [3 Threads and Synchronization](slides/coursePPT/03thread.pptx)
+
+### 0.2 instructional slides:
+
+#### [0 Course Introduction](slides/instruction/introduction.pptx)
+
+#### [1 Introduction to Windows Dev](slides/instruction/principleWindows_1.pptx)
+
+#### [2 Program and Process](slides/instruction/principleWindows_2.pptx)
+
+#### [3 Threads and Synchronization](slides/instruction/principleWindows_3.pptx)
+
+## 1 Visual Studio 2019 Community
+
+### 1.1 Installation of VS 2019 Community
+
+### [1.2 Choice of Front-end Frameworks](appendix/front-end.md)
+
+## 2 git, github and gitee
+
+本课程采用 git 作为项目管理工具并管理课程相关教学、训练及练习资源。
+建议大家以 github 作为主要的远程仓库方便获取丰富的程序员社区资源，
+而将 gitee 作为备份远程仓库来备份源码以备不时之需。尽量同时采用 github 
+与 gitee 来保存个人的源码及编码资源。
+
+[git 下载地址 https://git-scm.com/downloads](https://git-scm.com/downloads)
+
+从上述官网下载 git 的最新版本进行缺省安装即可。
+
+### 2.1 SSH Connection
+
+使用 git 工具来管理项目, 通常会使用 SSH 来连接代码仓库。win10 下如何
+安装 SSH client 参见:
+
+[win10 安装SSH](git/ssh_client.md)
 
 
-#### Gitee Feature
+生成并使用 ssh-key:
 
-1.  You can use Readme\_XXX.md to support different languages, such as Readme\_en.md, Readme\_zh.md
-2.  Gitee blog [blog.gitee.com](https://blog.gitee.com)
-3.  Explore open source project [https://gitee.com/explore](https://gitee.com/explore)
-4.  The most valuable open source project [GVP](https://gitee.com/gvp)
-5.  The manual of Gitee [https://gitee.com/help](https://gitee.com/help)
-6.  The most popular members  [https://gitee.com/gitee-stars/](https://gitee.com/gitee-stars/)
+[参见 ssh-key](git/ssh_gitee.md)
+
+
+### 2.2 Push to Remote Repositories
+
+同步本地仓库到 github 与 gitee 的方法参见：
+
+[同步推送本地仓库到 gitee 与 github](git/gitee_n_github.md)
+
+#### 2.2.1  github
+
+github extension 的安装参见教学幻灯片。
+
+#### 2.2.2  gitee
+
+事实上 github extension 已经可以涵盖 gitee extension 的作用。
+gitee 的 VS extension 下载地址:
+
+https://marketplace.visualstudio.com/items?itemName=GiteeInc.GiteeExtension
+
+
+### [2.3 frequently used git commands](git/frequentlyUsed.md)
+
+
+## 3  WSL
+
+[Installation of WSL](WSL/WSL.md)
+
+## 4 Course Lab
+
+[Goto details](labs/labs.md)
+
+### 4.1 git
+
+basic git command
+
+pull request
+
+### 4.2 tools
+
+*  DUMPBIN<br>
+https://docs.microsoft.com/en-us/cpp/build/reference/dumpbin-reference?view=vs-2019
+<br>
+https://www.cnblogs.com/zhaotianff/p/10637397.html
+
+*  readelf<br>
+https://www.cnblogs.com/gatsby123/p/9750187.html
+
+## 5 refs
+
+<https://github.com/microsoft>
+
+[C++/winRT refs](appendix/cppWinRT.md)
+
+
+## Academic Integrity
+
+Grading in this course is intended to be fair and objectively measure your 
+performance as much as possible. 
+Wuhan University regards acts of academic dishonesty (e.g., plagiarism, 
+cheating on examinations, obtaining unfair advantage, and falsification of 
+laboratory notebook records) as serious offenses against the values of 
+intellectual honesty. 
+
+Penalty for Academic Dishonesty:
+* grade penalty: final grade is of 0 grade-point
+
+## How to contribute
+
+1.  Create a personal fork
+2.  Clone the fork on your local machine
+3.  Create a new feature branch Feat_xxx 
+4.  Make a commit
+4.  Create new Pull Request
+
+
+
+
