@@ -10,18 +10,17 @@
 
 ## 1 Configure your dev environment
 
-
 ### 1.1 Install Visual Studio 2019 Preview
 
 
-ÓÉÓÚ winUI 3.0 »¹´¦ÓÚ Release Candidate ×´Ì¬, »¹²»±» Visual Studio 2019 Community »·¾³ËùÕıÊ½Ö§³Ö,
-Îª±ãÀû¿ª·¢ĞèÒª°²×° Visual Studio 2019 Preview µÄ Community °æ±¾¡£¹Ù·½ÏÂÔØµØÖ·£º
+ç”±äº winUI 3.0 è¿˜å¤„äº Release Candidate çŠ¶æ€, è¿˜ä¸è¢« Visual Studio 2019 Community ç¯å¢ƒæ‰€æ­£å¼æ”¯æŒ,
+ä¸ºä¾¿åˆ©å¼€å‘éœ€è¦å®‰è£… Visual Studio 2019 Preview çš„ Community ç‰ˆæœ¬ã€‚å®˜æ–¹ä¸‹è½½åœ°å€ï¼š
 <https://visualstudio.microsoft.com/vs/preview/>
 
 You must include the following workloads when installing the Visual Studio Preview:
 * .NET Desktop Development
 * Universal Windows Platform development
- 
+
 To build C++ apps you must also include the following workloads:
 * Desktop development with C++
 * The C++ (v142) Universal Windows Platform tools optional component for the Universal Windows Platform workload
@@ -29,25 +28,25 @@ To build C++ apps you must also include the following workloads:
 ![optional component](pix/installVSPreview.PNG)
 
 
-¼Ç×¡°²×°Ê±ÒªÑ¡ÔñÓ¢ÓïÓïÑÔ°ü, ²¢½« Visual Studio 2019 Preview µÄ»·¾³ÅäÖÃÎªÓ¢Óï¡£
+è®°ä½å®‰è£…æ—¶è¦é€‰æ‹©è‹±è¯­è¯­è¨€åŒ…, å¹¶å°† Visual Studio 2019 Preview çš„ç¯å¢ƒé…ç½®ä¸ºè‹±è¯­ã€‚
 
 ![optional component](pix/installen.png)
 
-°²×°Íê³ÉÖØÆôµçÄÔºóÆô¶¯ Visual Studio 2019 Preview ¡£Ñ¡Ôñ **¼ÌĞøµ«ÎŞĞè´úÂë** ½øÈëVS Ö÷½çÃæ¡£
+å®‰è£…å®Œæˆé‡å¯ç”µè„‘åå¯åŠ¨ Visual Studio 2019 Preview ã€‚é€‰æ‹© **ç»§ç»­ä½†æ— éœ€ä»£ç ** è¿›å…¥VS ä¸»ç•Œé¢ã€‚
 
 ![optional component](pix/startPreview.png)
 
-Ñ¡Ôñ **¹¤¾ß** -> **Ñ¡Ïî** ½øÈëÑ¡Ïî½çÃæ¡£
+é€‰æ‹© **å·¥å…·** -> **é€‰é¡¹** è¿›å…¥é€‰é¡¹ç•Œé¢ã€‚
 
 ![optional component](pix/setlanguage1.png)
 
-Ñ¡Ôñ **»·¾³** -> **ÇøÓòÉèÖÃ** -> **ÓïÑÔ** -> **Engligh** È·¶¨²¢ÖØÆô VS¡£
+é€‰æ‹© **ç¯å¢ƒ** -> **åŒºåŸŸè®¾ç½®** -> **è¯­è¨€** -> **Engligh** ç¡®å®šå¹¶é‡å¯ VSã€‚
 
-×¢Òâ£ºĞèÒªÔÚ **Visual Studio Installer** ÖĞ°²×°ÁËÓ¢ÎÄÓïÑÔ°üÕâÀï²Å»áÓĞ **English** Ñ¡Ïî¡£Èç¹ûÖ®Ç°Ã»ÓĞ°²×°¿ÉÒÔ½øÈë **Visual Studio Installer** ¶Ô **Visual Studio 2019 Preview** ½øĞĞĞŞ¸Ä¡£
+æ³¨æ„ï¼šéœ€è¦åœ¨ **Visual Studio Installer** ä¸­å®‰è£…äº†è‹±æ–‡è¯­è¨€åŒ…è¿™é‡Œæ‰ä¼šæœ‰ **English** é€‰é¡¹ã€‚å¦‚æœä¹‹å‰æ²¡æœ‰å®‰è£…å¯ä»¥è¿›å…¥ **Visual Studio Installer** å¯¹ **Visual Studio 2019 Preview** è¿›è¡Œä¿®æ”¹ã€‚
 
 ![optional component](pix/setlanguage2.png)
 
-ÏÖÔÚÏÔÊ¾µÄ¾ÍÊÇÓ¢ÎÄ½çÃæÀ²£¡
+ç°åœ¨æ˜¾ç¤ºçš„å°±æ˜¯è‹±æ–‡ç•Œé¢å•¦ï¼
 
 ![optional component](pix/englishUI.png)
 
@@ -59,12 +58,12 @@ Install both x64 and x86 versions of .NET 5 rc:
 
 ### 1.3 Install WinUI 3 Preview 1 Visual Studio project templates
 
-´ò¿ª Visual Studio 2019 Preview Community, ÔÚ Extensions µÄ Online ÖĞËÑË÷ 
-WinUI 3 Project Templates£¬ÕÒµ½ºó°²×°¸Ã²å¼ş¡£
-**Õâ¸ö²å¼şµÄ°²×°·Ç³£Âı£¡×îºÃÆğ´óÔçÏÂÔØ°²×°²»È»ºÜ¿ÉÄÜÊ§°Ü¡£**
+æ‰“å¼€ Visual Studio 2019 Preview Community, åœ¨ Extensions çš„ Online ä¸­æœç´¢ 
+WinUI 3 Project Templatesï¼Œæ‰¾åˆ°åå®‰è£…è¯¥æ’ä»¶ã€‚
+**è¿™ä¸ªæ’ä»¶çš„å®‰è£…éå¸¸æ…¢ï¼æœ€å¥½èµ·å¤§æ—©ä¸‹è½½å®‰è£…ä¸ç„¶å¾ˆå¯èƒ½å¤±è´¥ã€‚**
 
-Ò²¿ÉÒÔÖ±½ÓÈ¥<https://marketplace.visualstudio.com/items?itemName=Microsoft-WinUI.WinUIProjectTemplates>
-ÏÂÔØ°²×°¡£
+ä¹Ÿå¯ä»¥ç›´æ¥å»<https://marketplace.visualstudio.com/items?itemName=Microsoft-WinUI.WinUIProjectTemplates>
+ä¸‹è½½å®‰è£…ã€‚
 
 ## 2 Create a WinUI 3 desktop app for C++/Win32
 
