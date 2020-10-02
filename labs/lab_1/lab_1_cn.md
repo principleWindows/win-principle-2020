@@ -15,9 +15,14 @@ Read [English Version](lab_1.md)
 
 ## 2 [How to create a blank app](lab_1_2.md)
 
-## 3 [C++/winRT 与 winUI3 演示代码](lab_1_3.md)
+## 3 [How to package an application](lab_1_3.md)
 
-## 4 Cache line 与多线程性能调查
+## 4 [Implement a custom control class](lab_1_4.md)
+
+## 5 [Cache line 与多线程性能调查](lab_1_5.md)
+
+## 6 [C++/winRT 与 winUI3 演示代码](lab_1_6.md)
+
 
 
 

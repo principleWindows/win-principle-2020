@@ -17,10 +17,11 @@ Targets of this class:
 
 ## 3 [How to package an application](lab_1_3.md)
 
-## 4 [C++/winRT and winUI3 Sample Codes](lab_1_4.md)
+## 4 [Implement a custom control class](lab_1_4.md)
 
+## 5 [Cache line and Multi-threads Prformance Investigation](lab_1_5.md)
 
-## 5 Cache line and Multi-threads Prformance Investigation
+## 6 [C++/winRT and winUI3 Sample Codes](lab_1_6.md)
 
 
 
