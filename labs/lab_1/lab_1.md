@@ -10,6 +10,13 @@ Targets of this class:
 3. Cache line and multithreads performance
 
 
+Please notice that git operation GUI in VS 2019 Community Preview 
+is quite different from that in VS 2019 Community. In the next version
+of VS, say VS 2021, Microsoft may thoroughly changed the git GUI.
+But this is only a guessing, so we **strongly suggest** using git command line
+in powershell of windows for your daily git operations. And that will 
+also help you a lot be familiar with git commands.
+
 
 ## 1 [Introduction to Framework Sample Codes wpfTest2020](lab_1_1.md)
 
