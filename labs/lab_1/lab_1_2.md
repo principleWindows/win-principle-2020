@@ -9,47 +9,47 @@
 
 1. 打开 Visual Studio 2019 Preview Community (点击 continue without codes)
 
-![open VS](pix/splashVS.PNG)
+![open VS](https://i.loli.net/2020/10/07/lDhCAU6mdFtGfQ1.png)
 
 2. 点击 File -> new -> Project
 
-![new project](pix/newProject.PNG)
+![new project](https://i.loli.net/2020/10/07/mJ8kPI7gAfydpcQ.png)
 
 3. 在 Create a new project 对话框的右上下拉选择菜单种分别选择 [c++], 
 [Windows], [WinUI], 再在出现的项目类型中选择 "Blank App (WinUI in UWP)"
 后点击 Next
 
-![create a new project](pix/createApp.PNG)
+![create a new project](https://i.loli.net/2020/10/07/lSszhNgcCk4BPR8.png)
 
 上面的应用程序类型可根据需要选择其它项目类型。
 
 4. 填写欲创建的工程名称、存放位置及解决方案名称后点击 Create 按钮
 
-![Config the new project](pix/configProject.PNG)
+![Config the new project](https://i.loli.net/2020/10/07/FHOVX9PorTlJQf3.png)
 
 5. 选择目标应用程序运行的平台版本后点击 OK
 
-![Select the target platform](pix/choosePlatform.PNG)
+![Select the target platform](https://i.loli.net/2020/10/07/SXTLIQsco7UHlmu.png)
 
 6. 然后等待...
 
-![Creating project](pix/creating.PNG)
+![Creating project](https://i.loli.net/2020/10/07/mtCTz19PUAFyHGf.png)
 
 7. 最终生成应用程序工程
 
-![the generated project](pix/projectGenerated.PNG)
+![the generated project](https://i.loli.net/2020/10/07/lUaEIRi4TvmoFzL.png)
 
 8. 选择 active solution platform 为 x64
 
-![config active solution platform to be x64](pix/activeSolutionPlatform.PNG)
+![config active solution platform to be x64](https://i.loli.net/2020/10/07/Ggd1PpexVuLYUl6.png)
 
 9. 右键点击项目名称后在弹出的菜单里选择 build 开始生成该项目的应用
 
-![build the project](pix/buildProject.PNG)
+![build the project](https://i.loli.net/2020/10/07/mVKAdE6OqQJjp4i.png)
 
 10. 按快捷键 F5 可调试运行该程序
 
-![Press shortcut F5 to run](pix/runDebug.PNG)
+![Press shortcut F5 to run](https://i.loli.net/2020/10/07/1AFk7xZs9RHroeD.png)
 
 第一次运行会比较慢，请耐心等待。
 
