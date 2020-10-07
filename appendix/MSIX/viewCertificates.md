@@ -63,6 +63,24 @@ certificates.
 makecert -r -pe -n "cn=whu" -$ commercial -a sha1 -b 10/01/2020 -e 10/01/2050 -cy authority -ss my -sr currentuser
 ```
 
+**Solution to makecert error in windows powershell:**
+
+An error will occur as shown in the figure if you run the command above in windows powershell.
+
+![image-20201003092634144](images/image-20201003092634144.png)
+
+You can solve this error easily by running this command in VS `Developer Powershell` or `Developer Command Prompt`
+
+You can find the VS `Developer Powershell` and `Developer Command Prompt` in VS Tools->Command Line
+
+![image-20201003092756614](images/image-20201003092756614.png)
+
+Then you can run the makecert command successfully using the `Developer Powershell` or `Developer Command Prompt`
+
+![image-20201003092822821](images/image-20201003092822821.png)
+
+![image-20201003103214312](images/image-20201003103214312.png)
+
 # View certificates with the Certificate Manager tool
 
 You can also view, export, import, and delete certificates by using the Certificate Manager tool.
