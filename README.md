@@ -39,6 +39,8 @@ slides and resource for the course "principle of windows and its applications"
 
 #### [3 线程间通信与同步](slides/coursePPT/03thread.pptx)
 
+#### [4 文件系统管理](slides/coursePPT/04fs.pptx)
+
 ### 0.2 instruction slides:
 
 #### [0 Course Introduction](slides/instruction/introduction.pptx)
@@ -48,6 +50,8 @@ slides and resource for the course "principle of windows and its applications"
 #### [2 Program and Process](slides/instruction/principleWindows_2.pptx)
 
 #### [3 Threads and Synchronization](slides/instruction/principleWindows_3.pptx)
+
+#### [4 Windows File System](slides/instruction/principleWindows_4.pptx)
 
 ## 1 Visual Studio 2019 Community
 
