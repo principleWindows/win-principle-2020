@@ -3,22 +3,22 @@
 
 ***
 
-�ڽ��и�ʵ��֮ǰ�������ѡ���Ƚ���2����ʵ�飺
-1. ѧ��鿴֤�飨�μ� [How to View certificates](../../appendix/MSIX/viewCertificates.md)��
-2. ����֤�飨���Ҳ�����������������ҵ���
+在进行该实验之前，你可以选择先进行2个子实验：
+1. 学会查看证书（参见 [How to View certificates](../../appendix/MSIX/viewCertificates.md)）
+2. 生成证书（这个也可以在上面文章中找到）
 
-����������ʵ�������ڶ�Ӧ�ó�����д���Ĺ��̵����⣨��ϸ���̲ο�
+上述两个子实验有助于对应用程序进行打包的过程的理解（详细过程参考
 [Package a desktop or UWP app in Visual Studio](../../appendix/MSIX/packaging-uwp-apps.md)
-����
+）。
 
-��ʵ��ľ��岽�����£����������ϸ�ʵ�������ɵ���Ŀ winUITest ��Ϊ����������˵������
+本实验的具体步骤如下（我们以在上个实验中生成的项目 winUITest 作为例子来进行说明）：
 
 
-1. ���� Active solution configuration Ϊ Release
+1. 设置 Active solution configuration 为 Release
 
 ![set active config](pix/activeConfig.PNG)
 
-2. �һ���Ŀ���Ƶ�� Build ����Ŀ��Ӧ�ó��򣨲����ϸ�ʵ�飩
+2. 右击项目名称点击 Build 生成目标应用程序（参照上个实验）
 
 3. Right-click the project and choose Publish->Create App Packages
 
@@ -58,35 +58,38 @@ here we input "file:///F:/tmp"
 
 ![copy and close](pix/copy_n_close.PNG)
 
-9. �����ڵ�7����������� UNC ·���£�������F:\tmp�������˰�װ��������Ϊ��װ֤��
-��δע�������ʹ�á�
+9. 现在在第7步你所输入的 UNC 路径下（这里是F:\tmp）生成了安装包，但因为安装证书
+还未注册而不能使用。
 
 ![folder of the installation package](pix/folderUNC.PNG)
 
-�������ǽ���5�������Ĳ���֤�����ע�ᣨ���ǰ�ǰ����UNC·����Ϊ��װ��·������
-* �򿪰�װ��·�������������һ���ļ��У������� winuiTest_1.0.2.0_Test��
-* ���ļ�������һ�� winuiTest_1.0.2.0_x64.msixbundle �ļ����һ����������
+下面我们将第5步创建的测试证书进行注册（我们把前述的UNC路径称为安装包路径）：
+* 打开安装包路径，进入下面的一个文件夹（这里是 winuiTest_1.0.2.0_Test）
+* 该文件夹里有一个 winuiTest_1.0.2.0_x64.msixbundle 文件，右击并点击属性
 
 ![msix attribution](pix/msixAttrib.PNG)
 
-���������ǩ������ǩҳ����ǩ���б��е�ǩ����Ȼ���ٵ����λ���ϸ��Ϣ���鿴֤�顢��װ
-֤�飺
+点击“数字签名”标签页后点击签名列表中的签名，然后再点依次击详细信息、查看证书、安装
+证书：
 
 ![install certificate](pix/installCert.PNG)
 
-��֤�������������ؼ�������󵥻���һ����
+在证书向导里点击“本地计算机”后单击下一步：
 
 ![local machine](pix/certImport.PNG)
 
-ѡ������֤�鶼�������д洢���ٵ�������Ȼ��ѡ�������εĸ�֤��䷢���������ȷ����
+选择将所有证书都放入下列存储后再点击浏览，然后选择“受信任的根证书颁发机构”后点确定：
 
 ![save certificate](pix/saveCert.PNG)
 
-ȷ��������һ���Ϳɽ�֤�鰲װ��ϵͳ�С���ҿ��԰�ʵ�鿪ʼǰ����ʵ���еķ����鿴֤��
-�Ƿ���ȷ��װ��
+确定后点击下一步就可将证书安装到系统中。大家可以按实验开始前的子实验中的方法查看证书
+是否正确安装。
 
-10. ���֤�鰲װ��ص���װ��·����������µİ�װ���� winuiTest.appinstaller ��
-����˳����ɳ���İ�װ�ˡ���װ��ɺ��ڿ�ʼ�˵���Ϳ��Կ�������װ�ĳ��򣬵�������������У�
+10. 完成证书安装后回到安装包路径，点击其下的安装程序 winuiTest.appinstaller 就
+可以顺利完成程序的安装了。如果安装失败，提示信息为：“请向开发人员索要新的应用包。
+此应用包可能与已经安装的应用包冲突，，，，，”。这是因为你之前运行项目产生的应用程序还没有删除，
+请先把应用程序卸载，再双击winuiTest.appinstaller即可完成安装。
+安装完成后在开始菜单里就可以看到所安装的程序，点击可以启动运行：
 
 ![start menu](pix/winStart.PNG)
 

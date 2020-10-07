@@ -103,6 +103,12 @@ startup project for your solution by default.
 
 ![Package Project](pix/packManifest.PNG)
 
+如果运行项目中个别文件找不到头文件，如pch.h文件中标红的“#include <winrt/Windows.Foundation.h>”，且运行后报错如下：
+![](https://images.gitee.com/uploads/images/2020/1003/154049_e4c1eb7d_5722310.jpeg "QQ图片20201003154019.jpg")
+请在extensions中下载C++/WinRT插件：
+![](https://images.gitee.com/uploads/images/2020/1003/154359_9a1925f7_5722310.png "QQ图片20201003154329.png")
+下载完成后，重新rebuild项目，即可正常运行。
+
 7. To add a new item to your app project, right-click the Project name (Desktop) project 
 node in Solution Explorer and select Add -> New Item. In the Add New Item dialog box, 
 select the WinUI tab, choose the item you want to add, and then click Add. For more 
