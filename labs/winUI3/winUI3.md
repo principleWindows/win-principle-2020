@@ -118,4 +118,24 @@ details about the available items, see [this section](https://docs.microsoft.com
 
 8. Build and run your solution to confirm that the app runs without errors.
 
+9. When running apps on your desktop, Windows will require you to enable **developer mode**. 
 
+   ![error_develop_mode](pix/error_develop_mode.png)
+
+   The configuration page will appear spontaneously when you build your project, you can enable developer mode in this page.
+
+   You can also simply enable developer mode through clicking Win-->settings-->update&security-->developer options-->developer mode.
+
+   ![enable_developer_mode](pix/enable_developer_mode.png)
+
+10. If your Windows OS hasn't been updated to latest version, there will exist problems when running the app.
+
+    ![version_error](pix/version_error.png)
+
+     Here are two solutions:
+
+    a. Update your Windows OS (recommended)
+
+    b. Reduce the minimum version requirements of the application. Right-click the UWP application project, select `Properties` , and change the **Min version** to a lower version (such as 17134). (This is not a safe method, some APIs may only be provided in higher version)
+
+    ![change_minVersion](pix/change_minVersion.png)
