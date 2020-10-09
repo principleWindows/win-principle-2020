@@ -64,3 +64,52 @@ git push -u origin_github master
 好了。远程仓库同步实验就到这里，其间如果你碰到任何问题，请将问题截图，并将问题的解决方法一并写入你的实验报告。
 
 
+## 3 使用 VS2019 中的 Team Explorer进行代码同步时可能出现的问题及解决方案
+### 问题一：
+![problem3](images/problem1.PNG)
+在初次使用git进行项目的版本管理时，如果是pull一个项目，往往会出现上面的错误提示：
+原因分析：
+这是由于没有设置Gitee的SSH公钥。在未设置SSH公钥的情况下，可以使用git clone Gitee上的项目，但是不能git push项目到Gitee上，如果想push项目到Gitee，那么必须配置SSH公钥。生成公钥和配置公钥的办法，可以参考Gitee帮助里面的文章，里面做了详细的介绍https://gitee.com/help/articles/4191 。
+
+解决办法：
+
+1、生成SSH公钥
+
+`ssh-keygen -t rsa -C "xxxxx@xxxxx.com"`  
+![SSH公钥](images/SSH公钥.PNG)
+找到对应的目录：
+![id_rsa目录](images/id_rsa目录.PNG)
+找到gitee进行配置：
+![Gitee配置](images/Gitee配置.PNG)
+
+这里添加之后，在git push 的时候，发现还是会：
+![again](images/again.PNG)
+可能是你的这台电脑以前使用过git，所以保存的账号和密码是其他人的，所以需要进行修改账号和密码，步骤如下：
+1.进入控制面板
+2.选择用户账户
+3.选择管理你的凭据
+4.选择Windows凭据
+5.选择git保存的用户信息
+6.选择编辑或者进行删除操作
+7.完成
+第一步：
+![第一步](images/第一步.PNG)
+第二步：
+![第二步](images/第二步.PNG)
+第三步：
+![第三步](images/第三步.PNG)
+
+修改完成之后就OK了。
+
+### 问题二：
+![problem2](images/problem2.PNG)
+解决方案：
+进入控制面板
+用户账号，选择管理您的凭据
+![控制面板](images/控制面板.PNG)
+修改凭据
+![修改凭据1](images/修改凭据1.PNG)
+用户名为手机号/姓名，密码为登录密码
+![修改凭据2](images/修改凭据2.PNG)
+修改完成后，保存即可
+![保存](images/保存.PNG)
