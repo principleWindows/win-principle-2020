@@ -153,5 +153,26 @@ Penalty for Academic Dishonesty:
 4.  Create new Pull Request
 
 
+## Preprint of Text
+
+**Make contribution to our text preprint**, 
+**add resources or sections to the following topics:**
+
+[Chapter 1 Introduction](preprint/chapter_1/ch_1.md)
+
+[Chapter 2 Process](preprint/chapter_2/ch_2.md)
+
+[Chapter 3 Threads](preprint/chapter_3/ch_3.md)
+
+[Chapter 4 File System](preprint/chapter_4/ch_4.md)
+
+[Chapter 5 Registry](preprint/chapter_5/ch_5.md)
+
+[Chapter 6 Dynamic Link Library](preprint/chapter_6/ch_6.md)
+
+[Chapter 7 Windows COM](preprint/chapter_7/ch_7.md)
+
+[Chapter 8 Windows and Messages](preprint/chapter_8/ch_8.md)
+
 
 
