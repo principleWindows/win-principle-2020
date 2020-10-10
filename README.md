@@ -103,6 +103,7 @@ https://marketplace.visualstudio.com/items?itemName=GiteeInc.GiteeExtension
 
 ### [2.3 frequently used git commands](git/frequentlyUsed.md)
 
+### [2.4 New git preview features](git/preview_features.md)
 
 ## 3  WSL
 
