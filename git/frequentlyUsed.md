@@ -24,6 +24,12 @@ git clone https://gitee.com/someones/somerepo.git
 git push origin_gitee master
 ```
 
+去掉已经托管的文件
+```git
+git rm -r --cached filename
+```
+
+
 ### 0.1 git branch
 
 ```git

@@ -22,10 +22,12 @@ Read [English Version](labs.md)
 2. How to create C++/winRT applications
 3. Cache line and multithreads performance
 
-
-
 ## 2 [实验二](lab_2/lab_2.md)
 
+Misson of this class:
+1. Enumerating Registry Subkeys
+2. Deleting a Key with Subkeys
+3. Determining the Registry Size 
 
 ## 3 [实验三](lab_3/lab_3.md)
 
