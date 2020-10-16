@@ -52,9 +52,11 @@ git checkout -- test.txt                // 从版本库中恢复文件到工作区
 
 ```git log``` 找到想要撤销的id
 
-2、git reset –hard id 完成撤销, 同时将代码恢复到前一 commit_id 对应的版本 
+2、git reset –hard id 完成撤销, 同时将代码恢复到前一 commit_id 对应
+的版本 
 
-3、git reset id 完成 Commit  命令的撤销，但是不对代码修改进行撤销，可以直接通过git commit 重新提交对本地代码的修改
+3、git reset id 完成撤销 git commit 到本地未push到远程仓库，但是不对
+**代码修改进行撤销**，可以直接通过 git commit 重新提交对本地代码的修改
 
 
 ## 1 compare two files
