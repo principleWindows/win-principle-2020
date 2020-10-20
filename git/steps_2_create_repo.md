@@ -15,6 +15,10 @@
 
 可以通过 VS 界面进行 clone，或者直接使用 git 命令
 
+```git
+git clone https://github.com/jichenghu/se.git
+```
+
 ## 4 将本地的 se 仓库更新到 gitee 上的 se 仓库
 ## 5 将本地的 se 仓库更新到 github 上的 se 仓库
 

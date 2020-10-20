@@ -18,3 +18,5 @@ Misson of this class:
 
 ## 4 [确定注册表大小](lab_2_4.md)
 
+## 5 [在 Windows 下进行 Debug](lab_2_5.md)
+
