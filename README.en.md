@@ -1,6 +1,6 @@
 # Windows Principles and Its Applications
 
-[ÖĞÎÄ°æ](README.md)
+[ä¸­æ–‡ç‰ˆ](README.md)
 
 **Please leve your comment, suggestion, question in the comment feedback or send me emails!**
 
@@ -8,7 +8,7 @@ This is the teaching resource repository for the courses of CS, Wuhan University
 * Course No.20201021076 "Windows principle and its applications"
 * Course No.20201021952 "Windows principle and its applications"
 
-¡°Windows Principle and Its Applications¡± is a course of teaching
+â€œWindows Principle and Its Applicationsâ€ is a course of teaching
 general purpose windows 
 programming knowledge to develop software system running on Windows 
 platform, via different programming languages that supports 
@@ -21,7 +21,7 @@ By learning this course, you will be training with up-to-date
 technology, including uwp, fluent design, c++/winRt, c#/winRt etc, 
 to create stunning modern windows applications, using a suite of 
 collaborative tools. These learning opportunities can help you 
-get started quickly ¡ª from exploration to deep training.
+get started quickly â€” from exploration to deep training.
 
 Instructor: Professor Jicheng Hu
 
@@ -58,42 +58,42 @@ slides and resource for the course "principle of windows and its applications"
 
 ## 2 git, github and gitee
 
-±¾¿Î³Ì²ÉÓÃ git ×÷ÎªÏîÄ¿¹ÜÀí¹¤¾ß²¢¹ÜÀí¿Î³ÌÏà¹Ø½ÌÑ§¡¢ÑµÁ·¼°Á·Ï°×ÊÔ´¡£
-½¨Òé´ó¼ÒÒÔ github ×÷ÎªÖ÷ÒªµÄÔ¶³Ì²Ö¿â·½±ã»ñÈ¡·á¸»µÄ³ÌĞòÔ±ÉçÇø×ÊÔ´£¬
-¶ø½« gitee ×÷Îª±¸·İÔ¶³Ì²Ö¿âÀ´±¸·İÔ´ÂëÒÔ±¸²»Ê±Ö®Ğè¡£¾¡Á¿Í¬Ê±²ÉÓÃ github 
-Óë gitee À´±£´æ¸öÈËµÄÔ´Âë¼°±àÂë×ÊÔ´¡£
+æœ¬è¯¾ç¨‹é‡‡ç”¨ git ä½œä¸ºé¡¹ç›®ç®¡ç†å·¥å…·å¹¶ç®¡ç†è¯¾ç¨‹ç›¸å…³æ•™å­¦ã€è®­ç»ƒåŠç»ƒä¹ èµ„æºã€‚
+å»ºè®®å¤§å®¶ä»¥ github ä½œä¸ºä¸»è¦çš„è¿œç¨‹ä»“åº“æ–¹ä¾¿è·å–ä¸°å¯Œçš„ç¨‹åºå‘˜ç¤¾åŒºèµ„æºï¼Œ
+è€Œå°† gitee ä½œä¸ºå¤‡ä»½è¿œç¨‹ä»“åº“æ¥å¤‡ä»½æºç ä»¥å¤‡ä¸æ—¶ä¹‹éœ€ã€‚å°½é‡åŒæ—¶é‡‡ç”¨ github 
+ä¸ gitee æ¥ä¿å­˜ä¸ªäººçš„æºç åŠç¼–ç èµ„æºã€‚
 
-[git ÏÂÔØµØÖ· https://git-scm.com/downloads](https://git-scm.com/downloads)
+[git ä¸‹è½½åœ°å€ https://git-scm.com/downloads](https://git-scm.com/downloads)
 
-´ÓÉÏÊö¹ÙÍøÏÂÔØ git µÄ×îĞÂ°æ±¾½øĞĞÈ±Ê¡°²×°¼´¿É¡£
+ä»ä¸Šè¿°å®˜ç½‘ä¸‹è½½ git çš„æœ€æ–°ç‰ˆæœ¬è¿›è¡Œç¼ºçœå®‰è£…å³å¯ã€‚
 
 ### 2.1 SSH Connection
 
-Ê¹ÓÃ git ¹¤¾ßÀ´¹ÜÀíÏîÄ¿, Í¨³£»áÊ¹ÓÃ SSH À´Á¬½Ó´úÂë²Ö¿â¡£win10 ÏÂÈçºÎ
-°²×° SSH client ²Î¼û:
+ä½¿ç”¨ git å·¥å…·æ¥ç®¡ç†é¡¹ç›®, é€šå¸¸ä¼šä½¿ç”¨ SSH æ¥è¿æ¥ä»£ç ä»“åº“ã€‚win10 ä¸‹å¦‚ä½•
+å®‰è£… SSH client å‚è§:
 
-[win10 °²×°SSH](git/ssh_client.md)
+[win10 å®‰è£…SSH](git/ssh_client.md)
 
 
-Éú³É²¢Ê¹ÓÃ ssh-key:
+ç”Ÿæˆå¹¶ä½¿ç”¨ ssh-key:
 
-[²Î¼û ssh-key](git/ssh_gitee.md)
+[å‚è§ ssh-key](git/ssh_gitee.md)
 
 
 ### 2.2 Push to Remote Repositories
 
-Í¬²½±¾µØ²Ö¿âµ½ github Óë gitee µÄ·½·¨²Î¼û£º
+åŒæ­¥æœ¬åœ°ä»“åº“åˆ° github ä¸ gitee çš„æ–¹æ³•å‚è§ï¼š
 
-[Í¬²½ÍÆËÍ±¾µØ²Ö¿âµ½ gitee Óë github](git/gitee_n_github.md)
+[åŒæ­¥æ¨é€æœ¬åœ°ä»“åº“åˆ° gitee ä¸ github](git/gitee_n_github.md)
 
 #### 2.2.1  github
 
-github extension µÄ°²×°²Î¼û½ÌÑ§»ÃµÆÆ¬¡£
+github extension çš„å®‰è£…å‚è§æ•™å­¦å¹»ç¯ç‰‡ã€‚
 
 #### 2.2.2  gitee
 
-ÊÂÊµÉÏ github extension ÒÑ¾­¿ÉÒÔº­¸Ç gitee extension µÄ×÷ÓÃ¡£
-gitee µÄ VS extension ÏÂÔØµØÖ·:
+äº‹å®ä¸Š github extension å·²ç»å¯ä»¥æ¶µç›– gitee extension çš„ä½œç”¨ã€‚
+gitee çš„ VS extension ä¸‹è½½åœ°å€:
 
 https://marketplace.visualstudio.com/items?itemName=GiteeInc.GiteeExtension
 
@@ -132,7 +132,7 @@ https://www.cnblogs.com/gatsby123/p/9750187.html
 <https://github.com/microsoft>
 
 [C++/winRT refs](appendix/cppWinRT.md)
-
+[Rust/winRT refs](appendix/rustWinRT.md)
 
 ## Academic Integrity
 
@@ -175,6 +175,5 @@ Penalty for Academic Dishonesty:
 [Chapter 7 Windows COM](preprint/chapter_7/ch_7.md)
 
 [Chapter 8 Windows and Messages](preprint/chapter_8/ch_8.md)
-
 
 

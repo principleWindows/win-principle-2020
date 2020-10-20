@@ -134,6 +134,7 @@ https://www.cnblogs.com/gatsby123/p/9750187.html
 <https://github.com/microsoft>
 
 [C++/winRT refs](appendix/cppWinRT.md)
+[Rust/winRT refs](appendix/rustWinRT.md)
 
 ## Academic Integrity
 
