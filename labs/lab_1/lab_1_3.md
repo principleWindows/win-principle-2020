@@ -74,6 +74,10 @@ here we input "file:///F:/tmp"
 
 ![install certificate](pix/installCert.PNG)
 
+当然，也可以直接打开证书文件(.cer)来进行安装：
+
+![install_cer](pix\install_cer.png)
+
 在证书向导里点击“本地计算机”后单击下一步：
 
 ![local machine](pix/certImport.PNG)
@@ -86,10 +90,38 @@ here we input "file:///F:/tmp"
 是否正确安装。
 
 10. 完成证书安装后回到安装包路径，点击其下的安装程序 winuiTest.appinstaller 就
-可以顺利完成程序的安装了。如果安装失败，提示信息为：“请向开发人员索要新的应用包。
-此应用包可能与已经安装的应用包冲突，，，，，”。这是因为你之前运行项目产生的应用程序还没有删除，
-请先把应用程序卸载，再双击winuiTest.appinstaller即可完成安装。
-安装完成后在开始菜单里就可以看到所安装的程序，点击可以启动运行：
+    可以顺利完成程序的安装了。
 
-![start menu](pix/winStart.PNG)
+    ![intall](pix\installer.png)
+
+    如果安装失败，提示信息为：“请向开发人员索要新的应用包。
+    此应用包可能与已经安装的应用包冲突，，，，，”。这是因为你之前运行项目产生的应用程序还没有删除，
+    请先把应用程序卸载，再双击winuiTest.appinstaller即可完成安装。
+    安装完成后在开始菜单里就可以看到所安装的程序，点击可以启动运行：
+
+    ![start menu](pix/winStart.PNG)
+
+11. 如果打开安装出现如下错误：
+
+    ![install_Error](pix\install_Error.png)
+
+    你可以忽略该错误，并且按照下一步操作，也可以成功安装应用。
+
+12. 进入安装包目录的下一个文件夹(应用名\_版本号\_Test，在这里是winuiTest_1.0.2.0_Test)，找到文件扩展名为msixbundle的文件:
+
+    ![normal_install](pix\install_normal.png)
+
+    双击打开它，会出现：
+
+    ![install_with_cer](pix\install_with_cer.png)
+
+    当然，这是在安装了证书之后才会出现的界面，如果你还没有安装证书，则会出现下面的界面：
+
+    ![install_without_cer](pix\install_without_cer.png)
+
+    请安装完证书之后再继续安装。
+
+    至此，“解析应用包时出错“的问题就解决了！
+
+
 

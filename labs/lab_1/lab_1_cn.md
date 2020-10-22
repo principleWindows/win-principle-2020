@@ -16,11 +16,11 @@ powershell 进行 git 的命令行操作，也有益于大家掌握相关 git 命令。
 
 ## 1 [框架代码 wpfTest2020 介绍](lab_1_1.md)
 
-## 2 [How to create a blank app](lab_1_2.md)
+## 2 [如何创建一个空应用](lab_1_2.md)
 
-## 3 [How to package an application](lab_1_3.md)
+## 3 [如何打包一个应用](lab_1_3.md)
 
-## 4 [Implement a custom control class](lab_1_4.md)
+## 4 [添加自定义控件的方法](lab_1_4.md)
 
 ## 5 [Cache line 与多线程性能调查](lab_1_5.md)
 

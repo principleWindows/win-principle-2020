@@ -7,7 +7,7 @@
 本文介绍如何在 VS 中生成一个空的应用程序。下面以 Visual Studio 2019 Preview Community
 为例子介绍整个过程, VS 2017 和 VS 2019 的其它版本可参考进行。
 
-1. 打开 Visual Studio 2019 Preview Community (点击 continue without codes)
+1. 打开 Visual Studio 2019 Preview Community (点击 continue without codes)(或者直接点击Create a new project跳到第三步)
 
 ![open VS](pix/splashVS.PNG)
 
