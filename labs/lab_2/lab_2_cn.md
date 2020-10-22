@@ -4,6 +4,9 @@ Read [English Version](lab_2.md)
 
 ***
 
+你也可以使用课程组提供的 wpfTest 代码展开实验，
+这样就不用进行下面的实验。
+
 Misson of this class:
 1. Enumerating Registry Subkeys
 2. Deleting a Key with Subkeys
