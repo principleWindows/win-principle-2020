@@ -1,9 +1,14 @@
 # Debugging in Windows
 
-<https://docs.microsoft.com/en-us/windows-hardware/drivers/debugger/>
+[Symbols and Symbol Files](https://docs.microsoft.com/en-us/windows-hardware/drivers/debugger/symbols-and-symbol-files)
 <br>
-<https://docs.microsoft.com/en-us/windows-hardware/drivers/debugger/debuggers-in-the-debugging-tools-for-windows-package>
-
+[Getting Started with Windows Debugging](https://docs.microsoft.com/en-us/windows-hardware/drivers/debugger/getting-started-with-windows-debugging)
+<br>
+[Debugging Tools for Windows (WinDbg, KD, CDB, NTSD)](https://docs.microsoft.com/en-us/windows-hardware/drivers/debugger/)
+<br>
+[Debugging Environments](https://docs.microsoft.com/en-us/windows-hardware/drivers/debugger/debuggers-in-the-debugging-tools-for-windows-package)
+<br>
+[Windows 用户态程序高效排错](userdbg_msinternal.pdf)
 ***
 
 ## 0 How to debug in Visual Studio
@@ -60,10 +65,14 @@ Typically, KD does not run on the computer being debugged. You need two
 computers (the host computer and the target computer) for kernel-mode 
 debugging.
 
+[Debugging Using KD and NTKD](https://docs.microsoft.com/en-us/windows-hardware/drivers/debugger/debugging-using-kd-and-ntkd)
+
 ## 1.4 NTKD
 There is a variation of the KD debugger named NTKD. It is identical to KD 
 in every way, except that it spawns a new text window when it is started, 
 whereas KD inherits the Command Prompt window from which it was invoked.
+
+[Debugging Using KD and NTKD](https://docs.microsoft.com/en-us/windows-hardware/drivers/debugger/debugging-using-kd-and-ntkd)
 
 ## 1.5 CDB
 Microsoft Console Debugger (CDB) is a character-based console program that 
