@@ -46,3 +46,6 @@ xcopy $(SolutionDir)WPFTest\*.xls $(TargetDir)*.xls /y
 
 
 
+![Press shortcut F5 to run](pix/runDebug.PNG)
+
+
