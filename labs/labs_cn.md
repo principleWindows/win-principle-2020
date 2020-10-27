@@ -15,21 +15,21 @@ Read [English Version](labs.md)
 **为实现winUI3的新功能请大家尽量自带笔记本电脑并升级win10** )
 
 
-## 1 [实验一](lab_1/lab_1.md)
+## 1 [实验一](lab_1/lab_1_cn.md)
 
 本次课教学目标：
 1. Introduction to the C#/C++ framework example codes: wpfTest2020
 2. How to create C++/winRT applications
 3. Cache line and multithreads performance
 
-## 2 [实验二](lab_2/lab_2.md)
+## 2 [实验二](lab_2/lab_2_cn.md)
 
 Misson of this class:
 1. Enumerating Registry Subkeys
 2. Deleting a Key with Subkeys
 3. Determining the Registry Size 
 
-## 3 [实验三](lab_3/lab_3.md)
+## 3 [实验三](lab_3/lab_3_cn.md)
 
 
 

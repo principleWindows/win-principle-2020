@@ -23,3 +23,5 @@ Misson of this class:
 
 ## 5 [在 Windows 下进行 Debug](lab_2_5.md)
 
+## 6 [强化学习小平台](lab_2_6.md)
+

@@ -23,6 +23,6 @@ Misson of this class:
 
 ## 5 [Debugging in Windows](lab_2_5.md)
 
-
+## 6 [Tiny Reinforcement Learning Platform](lab_2_6.md)
 
 
