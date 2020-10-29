@@ -54,23 +54,23 @@ Git仓库：Git保存项目的元数据和对象数据库的地方。
 2. 安装完毕后，在任意目录新建文件夹，命名为gitTest，作为我们练习使用git的项目文件夹。
 
 3. 打开gitTest，在空白位置右键鼠标，点击"Git Bash Here"。
-![diff in powershell](images/open_git_bash.PNG)
+![open_git_bash](https://gitee.com/lpdink/win-principle-2020/raw/master/git/images/open_git_bash.png)
 4. 初始化Git仓库：在出现的命令行界面中键入"git init"，回车，这将创建一个.git的子目录，包含初始化的Git仓库的所有必须文件。但是git仍未对我们的项目文件进行追踪（实际上此时也没有文件:) ）
-![diff in powershell](images/git_init.PNG)
+![git_init](https://gitee.com/lpdink/win-principle-2020/raw/master/git/images/git_init.png)
 5. 新建文件：右键新建一个文本文件，命名为testFile.txt，用于模拟我们的项目文件。
 
 6. 查看文件状态：在命令行界面输入命令"git status"，回车。由于我们新建了testFile.txt文件，你会看到"Untracked files: testFile.txt"的提示，告知我们文件"testFile.txt"尚未被追踪。
-![diff in powershell](images/git_status.PNG)
+![git_status](https://gitee.com/lpdink/win-principle-2020/raw/master/git/images/git_status.png)
 7. 暂存修改：输入命令"git add 文件名"（在本例中，文件名是testFile.txt)，回车。更常用的做法是"git add ." 这会将当前目录所有已修改未暂存的文件纳入暂存。
 
 8. 提交修改：输入命令" git commit -m "你对本次提交的说明" "，回车。Git会找到暂存区域的所有文件，将这些文件的快照永久性地存储到Git仓库目录中。你可以修改“你对本次提交的说明”，来说明这次提交做了哪些修改。
 
 9. 添加版本标签：输入命令"git tag v1.0"，回车。为这次提交的版本简单命名，这里命名为v1.0，实际上你可以任意命名。这不是必要的步骤，但在接下来我们回溯版本时很有用。
-![diff in powershell](images/add_commit_tag.PNG)
+![add_commit_tag](https://gitee.com/lpdink/win-principle-2020/raw/master/git/images/add_commit_tag.png)
 10. 修改文件：打开testFile.txt文件，任意修改其中的内容，比如输入数字123。保存文件。
 
 11. 再次查看文件状态：切换回命令行界面，输入"git status"。Git告知我们<br>"Changes not staged for commit : <br>modified:  testFile.txt"
-![diff in powershell](images/modified.PNG)
+![modified](https://gitee.com/lpdink/win-principle-2020/raw/master/git/images/modified.png)
 12. 再次暂存修改：输入"git add ."，回车。
 
 13. 再次提交修改：输入"git commit -m "第二次提交的说明" "，回车。
@@ -78,6 +78,6 @@ Git仓库：Git保存项目的元数据和对象数据库的地方。
 14. 添加版本标签：输入"git tag v1.1"，回车。
 
 15. 回溯版本：输入"git reset --hard v1.0" Git将当前目录回溯到你指定标签的版本（此处是v1.0)，打开testFile.txt，你会发现它重新成为一个空白文件了。如果要回溯回来，你应该再输入"git reset --hard v1.1"。
-![diff in powershell](images/reset.PNG)
+![reset](https://gitee.com/lpdink/win-principle-2020/raw/master/git/images/reset.png)
 
 
