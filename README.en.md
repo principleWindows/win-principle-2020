@@ -38,6 +38,14 @@ slides and resource for the course "principle of windows and its applications"
 
 #### [4 Management of File System](slides/coursePPT/04fs.pptx)
 
+#### [5 WINDOWS Registry](slides/coursePPT/05registry.pptx)
+
+#### [6 Dynamic Link Library](slides/coursePPT/06dll.pptx)
+
+#### [7 COM](slides/coursePPT/07COM.pptx)
+
+#### [8 Message and Event](slides/coursePPT/08msg_n_events.pptx)
+
 ### 0.2 instructional slides:
 
 #### [0 Course Introduction](slides/instruction/introduction.pptx)
@@ -49,6 +57,14 @@ slides and resource for the course "principle of windows and its applications"
 #### [3 Threads and Synchronization](slides/instruction/principleWindows_3.pptx)
 
 #### [4 Windows File System](slides/instruction/principleWindows_4.pptx)
+
+#### [5 WINDOWS Registry](slides/instruction/principleWindows_5.pptx)
+
+#### [6 Dynamic Link Library](slides/instruction/principleWindows_6.pptx)
+
+#### [7 COM](slides/instruction/principleWindows_7.pptx)
+
+#### [8 Message and Event](slides/instruction/principleWindows_8.pptx)
 
 ## 1 Visual Studio 2019 Community
 

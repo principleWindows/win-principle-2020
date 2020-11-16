@@ -41,17 +41,33 @@ slides and resource for the course "principle of windows and its applications"
 
 #### [4 文件系统管理](slides/coursePPT/04fs.pptx)
 
+#### [5 WINDOWS 注册表](slides/coursePPT/05registry.pptx)
+
+#### [6 动态链接库](slides/coursePPT/06dll.pptx)
+
+#### [7 COM](slides/coursePPT/07COM.pptx)
+
+#### [8 消息与事件](slides/coursePPT/08msg_n_events.pptx)
+
 ### 0.2 instruction slides:
 
-#### [0 Course Introduction](slides/instruction/introduction.pptx)
+#### [0 课程介绍](slides/instruction/introduction.pptx)
 
-#### [1 Introduction to Windows Dev](slides/instruction/principleWindows_1.pptx)
+#### [1 Windows操作系统概述](slides/instruction/principleWindows_1.pptx)
 
-#### [2 Program and Process](slides/instruction/principleWindows_2.pptx)
+#### [2 程序进程与进程间通信](slides/instruction/principleWindows_2.pptx)
 
-#### [3 Threads and Synchronization](slides/instruction/principleWindows_3.pptx)
+#### [3 线程间通信与同步](slides/instruction/principleWindows_3.pptx)
 
-#### [4 Windows File System](slides/instruction/principleWindows_4.pptx)
+#### [4 文件系统管理](slides/instruction/principleWindows_4.pptx)
+
+#### [5 WINDOWS 注册表](slides/instruction/principleWindows_5.pptx)
+
+#### [6 动态链接库](slides/instruction/principleWindows_6.pptx)
+
+#### [7 COM](slides/instruction/principleWindows_7.pptx)
+
+#### [8 消息与事件](slides/instruction/principleWindows_8.pptx)
 
 ## 1 Visual Studio 2019 Community
 
